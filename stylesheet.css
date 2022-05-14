@@ -197,6 +197,7 @@ ul.insta_list {
   justify-content: space-around;
 }
 ul.insta_list li {
+  color: black;
   list-style: none;
   width: 48%;
   margin-bottom: 1vw;
