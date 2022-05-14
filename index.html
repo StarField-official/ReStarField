@@ -100,11 +100,13 @@
       <p>Instagramで最新の写真を見ることができます。</p>
       <h2 class="icon">Instagram</h2>
       <!-- InstagramAPI -->
-      <ul id="gallery" class="gallery"></ul>
-      <div class="instagram-gallery"></div>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/object-fit-images/3.2.4/ofi.min.js"></script>
-      <script src="js/script.js"></script>
+      <div id="instafeed"></div>
+      <script type="text/javascript" src="path/to/instafeed.min.js"></script>
+      <script type="text/javascript">
+        var feed = new Instafeed({
+          accessToken: 'EAAJtQTBuqeEBANUosI6ZB6wMI3z67ZCyEa7NZBXWG3WxHAl1U7ZBQtvLmEILK2XDnyciHJcvLZBIO6d2TguZCdQ2RYaQKRbTHaSxHaQN1xk5ZCMAZB0j30WP4v5SRYlhK3howS8IiDg80cus0K3kZCSAQAifVuxVvAUMNcpsl0BxrfVvgBT1SFpZAR'
+        }); feed.run();
+      </script>
       <p>Facebookもやっております。</p>
       <h2 class="icon">Facebook</h2>
       <!-- SnapWidget -->
