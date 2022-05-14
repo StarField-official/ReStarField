@@ -185,6 +185,28 @@ h1 {
   margin-top: 20px;
 }
 
+
+/* sns */
+ul.insta_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+ul.insta_list li {
+  list-style: none;
+  width: 48%;
+  margin-bottom: 1vw;
+}
+ul.insta_list li a p {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+ul.insta_list li a p span {
+  font-size: 120%;
+}
+
 /* レスポンシブ対応 */
 
 @media screen and (max-width: 480px){
