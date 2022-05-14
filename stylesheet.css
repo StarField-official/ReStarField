@@ -17,7 +17,6 @@ p,h1,h2 {
 
 img {
   vertical-align: bottom;
-  width: 100%;
 }
 
 ul {
@@ -187,6 +186,10 @@ h1 {
 
 
 /* sns */
+.insta_list img {
+  width: 100%;
+}
+
 ul.insta_list {
   display: flex;
   flex-wrap: wrap;
