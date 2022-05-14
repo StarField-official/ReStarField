@@ -13,7 +13,7 @@ const decoded = atob(test);
               let caption = insta[i].caption; //　投稿のキャプションを取得
               let like = insta[i].like_count; //　いいね！数の取得
               if(url.indexOf('.mp4') <= 0){ // 今回は動画は除外させました .mp4以外を<li>タグで描画します
-                $('.insta_list').append(` // テンプレートリテラルはバッククォート
+                $('.insta_list').append(`
 <li>
   <a href="${href}" target="qoo_insta">
     <img src="${url}" alt="${caption}">
